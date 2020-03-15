@@ -4,14 +4,14 @@ defmodule Ecto.Atom.Mixfile do
   def project do
     [
       app: :ecto_atom,
-      version: "1.0.0",
+      version: "1.0.1",
       elixir: "~> 1.4",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
       deps: deps(),
-      source_url: "https://github.com/matthieupinte/ecto_atom"
+      source_url: "https://github.com/sezaru/ecto_atom"
     ]
   end
 
