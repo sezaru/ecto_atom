@@ -9,7 +9,7 @@ by adding `ecto_atom` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:ecto_atom, github: "sezaru/ecto_atom", tag: "1.0.1"}]
+  [{:ecto_atom, github: "sezaru/ecto_atom", tag: "1.0.2"}]
 end
 ```
 
