@@ -22,7 +22,7 @@ defmodule Ecto.Atom do
   def cast(_), do: :error
 
   @impl Ecto.Type
-  def load(value), do: {:ok, String.to_existing_atom(value)}
+  def load(value), do: {:ok, String.to_atom(value)}
 
   @impl Ecto.Type
   def dump(value) when is_atom(value), do: {:ok, Atom.to_string(value)}
